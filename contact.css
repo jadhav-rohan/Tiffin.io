@@ -1,0 +1,67 @@
+body{
+    background-color: #8ee4af;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  
+}
+
+.container {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+}
+.container li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.container label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.container input[type=text], 
+.container input[type=email],
+textarea{
+	box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+}
+.container input[type=text]:focus, 
+.container input[type=email]:focus,
+.container textarea:focus
+{
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+.container .field-divided{
+	width: 49%;
+}
+
+.container .field-long{
+	width: 100%;
+}
+
+.container .field-select{
+	width: 100%;
+}
+.container .field-textarea{
+	height: 100px;
+}
+
+.container .required{
+	color:red;
+}
+
+button{
+    background-color: #05386b;
+    color: #8ee4af;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #BEBEBE;
+}
